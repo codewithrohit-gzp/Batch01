@@ -6,46 +6,81 @@ Passionate about building scalable, secure, and user-friendly web applications w
 
 **Professional Experience**
 
-* Worked as a **Software Developer with projects associated with the Ministry of Defence**, contributing to military-focused software solutions and enterprise-level applications.
-* Possess **1 year of professional industry experience** working on secure and management-based software projects.
-* Experienced in developing and maintaining systems for real-world operational requirements.
+- Worked as a **Software Developer with projects associated with the Ministry of Defence**, contributing to military-focused software solutions and enterprise-level applications.
+- Possess **1 year of professional industry experience** working on secure and management-based software projects.
+- Experienced in developing and maintaining systems for real-world operational requirements.
 
 **Technical Skills**
 
-* MERN Stack Development
-* React.js, Node.js, Express.js, MongoDB
-* JavaScript, PHP, Laravel
-* REST APIs & Database Management
-* HTML, CSS, Bootstrap
+- MERN Stack Development
+- React.js, Node.js, Express.js, MongoDB
+- JavaScript, PHP, Laravel
+- REST APIs & Database Management
+- HTML, CSS, Bootstrap
 
 Currently working as an **Assistant Professor & Trainer at Kashi Institute of Technology, Varanasi**, where I teach Python, DBMS, and Full Stack Development to MCA students and provide industrial training in MERN Stack Development.
 
 **Projects**
 
-* LMS (Learning Management System)
-* Ecommerce Website
-* University Website
-* Expense Tracker
-* Portfolio Projects
-* Management Systems
+- LMS (Learning Management System)
+- Ecommerce Website
+- University Website
+- Expense Tracker
+- Portfolio Projects
+- Management Systems
 
 **Certifications**
 
-* Full Stack Development
-* React.js
-* JavaScript
-* MongoDB & Node.js
-* Intermediate JavaScript (HackerRank)
+- Full Stack Development
+- React.js
+- JavaScript
+- MongoDB & Node.js
+- Intermediate JavaScript (HackerRank)
 
 Currently exploring:
 
-* Advanced Laravel
-* Backend Architecture
-* Scalable Web Applications
+- Advanced Laravel
+- Backend Architecture
+- Scalable Web Applications
 
 Connect with me:
 
-* GitHub: github.com/codewithrohit-gzp
-* LinkedIn: [www.linkedin.com/in/rohit-gupta02](http://www.linkedin.com/in/rohit-gupta02)
+- GitHub: github.com/codewithrohit-gzp
+- LinkedIn: [www.linkedin.com/in/rohit-gupta02](http://www.linkedin.com/in/rohit-gupta02)
 
 ⚡ “Building secure solutions, teaching future developers, and continuously learning new technologies.”
+
+----------------------------------------------------->
+import java.util.\*;
+
+public class sumOfInteger {
+public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        int number;
+        int choice;
+        int evenSum = 0;
+        int oddSum = 0;
+
+        do {
+            System.out.print("Enter the Number.!");
+
+            number = sc.nextInt();
+
+            if (number % 2 == 0) {
+                evenSum += number;
+
+            } else {
+                oddSum += number;
+            }
+            System.out.println("Do you want to continue .? Press 1 for yes otherwise 0 if No");
+            choice = sc.nextInt();
+        } while (choice == 1);
+
+        System.out.println("Sum of Even num :" + evenSum);
+        System.out.println("Sum of Odd num :" + oddSum);
+
+    }
+
+}
