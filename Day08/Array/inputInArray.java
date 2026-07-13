@@ -13,6 +13,8 @@ public class inputInArray {
         System.out.println("Enter your marks of the Given subject :phy, math and english !");
 
         // int phy = sc.nextInt();
+        // int eng = sc.nextInt();
+
         marks[0] = sc.nextInt();
         marks[1] = sc.nextInt();
         marks[2] = sc.nextInt();
